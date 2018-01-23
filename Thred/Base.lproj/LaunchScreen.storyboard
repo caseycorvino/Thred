@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Avenir.ttc">
+            <string>Avenir-Book</string>
+            <string>Avenir-Light</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="handTop.png" translatesAutoresizingMaskIntoConstraints="NO" id="dlp-FN-fjL">
+                                <rect key="frame" x="0.0" y="56" width="375" height="375"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thred." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w1Z-Zg-mIK">
+                                <rect key="frame" x="123.5" y="377" width="129.5" height="61.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="45"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ver 0.0.1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vn6-Gb-r2x">
+                                <rect key="frame" x="141" y="630" width="93" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="9Cz-uL-Qoe"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="93" id="Q4W-5f-F3T"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dlp-FN-fjL" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="width" id="2OG-3D-df5"/>
+                            <constraint firstItem="dlp-FN-fjL" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-100" id="8f4-bF-pzA"/>
+                            <constraint firstItem="dlp-FN-fjL" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="BbO-mO-l2E"/>
+                            <constraint firstItem="dlp-FN-fjL" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="HOe-62-PSC"/>
+                            <constraint firstItem="w1Z-Zg-mIK" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Me0-j5-Iyo"/>
+                            <constraint firstItem="w1Z-Zg-mIK" firstAttribute="top" secondItem="dlp-FN-fjL" secondAttribute="bottom" constant="-54" id="N3q-9j-jeB"/>
+                            <constraint firstItem="Vn6-Gb-r2x" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Zh2-t0-CHI"/>
+                            <constraint firstAttribute="bottom" secondItem="Vn6-Gb-r2x" secondAttribute="bottom" constant="16" id="yef-Xi-xb0"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="handTop.png" width="1925" height="1920"/>
+    </resources>
+</document>
